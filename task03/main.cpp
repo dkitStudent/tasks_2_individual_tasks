@@ -1,5 +1,6 @@
 #include <iostream>
-#include <cmath>
+#include "Fraction.h"
+
 
 using namespace std;
 
@@ -7,12 +8,12 @@ int main()
 {
     try
     {
-        double n, y;
-        cout << "Input value of n: " << endl;
-        cin >> n;
-        cout << "Input value of y: " << endl;
-        cin >> y; 
-        cout << "G = " << n * (y + 3.5) + sqrt(y) << endl;
+        Fraction frac;
+        unsigned int first, second;
+        cout << "First value: " && cin >> first;
+        cout << "Second value: " && cin >> second;
+
+        cout << "Extracted number: " <<  frac.ExtractIntegerNumber(first, second) << endl;
     }
     catch(const std::exception& e)
     {

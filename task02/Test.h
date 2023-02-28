@@ -2,5 +2,5 @@
 class Test
 {
     public:
-        int Task1(int &a, int &b);
+        int Task2(int &a, int &b);
 };

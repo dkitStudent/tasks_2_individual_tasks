@@ -14,7 +14,7 @@ int main()
         cin >> a;
         cout << "Input value of b: " << endl;
         cin >> b; 
-        cout << "Task 1 = " << t.Task1(a, b) << endl;
+        cout << "Task1 = " << t.Task1(a, b) << endl;
     }
     catch(const std::exception& e)
     {
