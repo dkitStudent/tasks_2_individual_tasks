@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/cpp_tasks/tasks_2_individual_tasks/Code",
-      "program": "c:/cpp_tasks/tasks_2_individual_tasks/Code/build/Debug/outDebug",
+      "cwd": "c:/cpp_tasks/tasks_2_individual_tasks/test",
+      "program": "c:/cpp_tasks/tasks_2_individual_tasks/test/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

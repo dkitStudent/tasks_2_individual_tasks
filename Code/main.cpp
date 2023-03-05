@@ -87,9 +87,63 @@ int main()
 
             string output;
             cout << tasks.Task7(leftEnd, rightEnd, userInput) << endl;
-
         }
 
+        //8th task
+        {
+            double leftEnd, rightEnd, userInput;
+            cout << "Enter left end of range: " && cin >> leftEnd;
+            cout << "Enter right end of range: " && cin >> rightEnd;
+
+            cout << "Enter your number: " && cin >> userInput;
+
+            string output;
+            cout << tasks.Task8(leftEnd, rightEnd, userInput) << endl;
+        }
+        //9th task
+        {
+            unsigned int hours, minutes;
+            cout << "Enter hours: " && cin >> hours;
+            cout << "Enter minutes: " && cin >> minutes;
+
+            cout << tasks.Task9(hours, minutes) << endl;
+        }
+        //10th task
+        {
+            double x, y;
+            cout << "Enter x: " && cin >> x;
+            cout << "Enter y: " && cin >> y;
+
+            cout << tasks.Task10(x, y) << endl;
+        }
+        //11th task
+        {
+            double salary; 
+            unsigned int days;
+            cout << "Enter salary: " && cin >> salary;
+            cout << "Enter days: " && cin >> days;
+
+            cout << tasks.Task11(salary, days) << endl;
+        }
+        //12th task
+        {
+            unsigned int duration;
+            double cost;
+            cout << "Enter duration: " && cin >> duration;
+            cout << "Enter cost: " && cin >> cost;
+
+            cout << tasks.Task12(duration, cost) << endl;
+        }
+        //13th task
+        {
+            int integerPart;
+            unsigned int fractioanalPart;
+            double number;
+            cout << "Enter integer part: " && cin >> integerPart;
+            cout << "Enter fractional part: " && cin >> fractioanalPart;
+            cout << "Enter real number: " && cin >> number;
+            cout << tasks.Task13(integerPart, fractioanalPart, number) << endl;
+        }
     }
     catch(const std::exception& e)
     {

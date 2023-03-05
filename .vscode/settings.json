@@ -31,6 +31,10 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "*.tcc": "cpp",
+    "compare": "cpp",
+    "limits": "cpp",
+    "type_traits": "cpp"
   }
 }
